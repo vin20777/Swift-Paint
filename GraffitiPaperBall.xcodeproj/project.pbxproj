@@ -7,21 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B538ADA01EEA523100CDF13F /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B56ED6AA1EE8CE2F00713762 /* GPBTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED6A91EE8CE2F00713762 /* GPBTutorialView.swift */; };
+		B56ED6AC1EE8CE4600713762 /* GPBTutorialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56ED6AB1EE8CE4600713762 /* GPBTutorialView.xib */; };
+		B5EFD3C61EE7D541004B82A8 /* GPBDesignableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFD3C51EE7D541004B82A8 /* GPBDesignableSlider.swift */; };
 		D929FD4A1E8F6BC2009302AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929FD491E8F6BC2009302AC /* AppDelegate.swift */; };
-		D929FD4C1E8F6BC2009302AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929FD4B1E8F6BC2009302AC /* ViewController.swift */; };
 		D929FD4F1E8F6BC2009302AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D929FD4D1E8F6BC2009302AC /* Main.storyboard */; };
 		D929FD511E8F6BC2009302AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D929FD501E8F6BC2009302AC /* Assets.xcassets */; };
 		D929FD541E8F6BC2009302AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D929FD521E8F6BC2009302AC /* LaunchScreen.storyboard */; };
+		D9C86F901EAC777B006A2CB2 /* TNRAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C86F8F1EAC777B006A2CB2 /* TNRAppUtils.swift */; };
+		D9D997191EE6A59400DA957F /* GPBPaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D997181EE6A59400DA957F /* GPBPaintingViewController.swift */; };
+		D9D9971B1EE6A60200DA957F /* GPBFineTuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9971A1EE6A60200DA957F /* GPBFineTuneViewController.swift */; };
+		D9E60B801ED0AE670001C987 /* GPBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E60B7F1ED0AE670001C987 /* GPBBaseViewController.swift */; };
+		D9E60B851ED0B4220001C987 /* GPBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E60B841ED0B4220001C987 /* GPBExtension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B538ADA11EEA523100CDF13F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B538ADA01EEA523100CDF13F /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B56ED6A91EE8CE2F00713762 /* GPBTutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPBTutorialView.swift; sourceTree = "<group>"; };
+		B56ED6AB1EE8CE4600713762 /* GPBTutorialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPBTutorialView.xib; sourceTree = "<group>"; };
+		B5EFD3C51EE7D541004B82A8 /* GPBDesignableSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPBDesignableSlider.swift; sourceTree = "<group>"; };
 		D929FD461E8F6BC2009302AC /* GraffitiPaperBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraffitiPaperBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D929FD491E8F6BC2009302AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D929FD4B1E8F6BC2009302AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D929FD4E1E8F6BC2009302AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D929FD501E8F6BC2009302AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D929FD531E8F6BC2009302AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D929FD551E8F6BC2009302AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C86F8F1EAC777B006A2CB2 /* TNRAppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNRAppUtils.swift; sourceTree = "<group>"; };
+		D9D997181EE6A59400DA957F /* GPBPaintingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPBPaintingViewController.swift; sourceTree = "<group>"; };
+		D9D9971A1EE6A60200DA957F /* GPBFineTuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPBFineTuneViewController.swift; sourceTree = "<group>"; };
+		D9E60B7F1ED0AE670001C987 /* GPBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPBBaseViewController.swift; sourceTree = "<group>"; };
+		D9E60B841ED0B4220001C987 /* GPBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPBExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +83,55 @@
 		D929FD481E8F6BC2009302AC /* GraffitiPaperBall */ = {
 			isa = PBXGroup;
 			children = (
+				D9E60B831ED0B3A30001C987 /* Extension */,
+				D9C86F8E1EAC772F006A2CB2 /* Utils */,
+				D9C86F8D1EAC7527006A2CB2 /* Controller */,
+				D9C86F8C1EAC7522006A2CB2 /* View */,
 				D929FD491E8F6BC2009302AC /* AppDelegate.swift */,
-				D929FD4B1E8F6BC2009302AC /* ViewController.swift */,
 				D929FD4D1E8F6BC2009302AC /* Main.storyboard */,
 				D929FD501E8F6BC2009302AC /* Assets.xcassets */,
 				D929FD521E8F6BC2009302AC /* LaunchScreen.storyboard */,
 				D929FD551E8F6BC2009302AC /* Info.plist */,
 			);
 			path = GraffitiPaperBall;
+			sourceTree = "<group>";
+		};
+		D9C86F8C1EAC7522006A2CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFD3C51EE7D541004B82A8 /* GPBDesignableSlider.swift */,
+				B56ED6A91EE8CE2F00713762 /* GPBTutorialView.swift */,
+				B56ED6AB1EE8CE4600713762 /* GPBTutorialView.xib */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D9C86F8D1EAC7527006A2CB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9E60B7F1ED0AE670001C987 /* GPBBaseViewController.swift */,
+				D9D997181EE6A59400DA957F /* GPBPaintingViewController.swift */,
+				D9D9971A1EE6A60200DA957F /* GPBFineTuneViewController.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D9C86F8E1EAC772F006A2CB2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D9C86F8F1EAC777B006A2CB2 /* TNRAppUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D9E60B831ED0B3A30001C987 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D9E60B841ED0B4220001C987 /* GPBExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +144,7 @@
 				D929FD421E8F6BC2009302AC /* Sources */,
 				D929FD431E8F6BC2009302AC /* Frameworks */,
 				D929FD441E8F6BC2009302AC /* Resources */,
+				B538ADA11EEA523100CDF13F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,19 +162,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Vincent Vangoh";
 				TargetAttributes = {
 					D929FD451E8F6BC2009302AC = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 8T79SY5AA9;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = D929FD411E8F6BC2009302AC /* Build configuration list for PBXProject "GraffitiPaperBall" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -126,6 +198,7 @@
 			files = (
 				D929FD541E8F6BC2009302AC /* LaunchScreen.storyboard in Resources */,
 				D929FD511E8F6BC2009302AC /* Assets.xcassets in Resources */,
+				B56ED6AC1EE8CE4600713762 /* GPBTutorialView.xib in Resources */,
 				D929FD4F1E8F6BC2009302AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D929FD4C1E8F6BC2009302AC /* ViewController.swift in Sources */,
+				D9D9971B1EE6A60200DA957F /* GPBFineTuneViewController.swift in Sources */,
 				D929FD4A1E8F6BC2009302AC /* AppDelegate.swift in Sources */,
+				B56ED6AA1EE8CE2F00713762 /* GPBTutorialView.swift in Sources */,
+				D9E60B801ED0AE670001C987 /* GPBBaseViewController.swift in Sources */,
+				D9C86F901EAC777B006A2CB2 /* TNRAppUtils.swift in Sources */,
+				D9E60B851ED0B4220001C987 /* GPBExtension.swift in Sources */,
+				B5EFD3C61EE7D541004B82A8 /* GPBDesignableSlider.swift in Sources */,
+				D9D997191EE6A59400DA957F /* GPBPaintingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,15 +253,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -205,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -224,15 +311,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -249,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,10 +358,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8T79SY5AA9;
 				INFOPLIST_FILE = GraffitiPaperBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = VTCompany.GraffitiPaperBall;
+				PRODUCT_BUNDLE_IDENTIFIER = vtstudio.ios.graffitipaperball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -276,10 +372,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8T79SY5AA9;
 				INFOPLIST_FILE = GraffitiPaperBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = VTCompany.GraffitiPaperBall;
+				PRODUCT_BUNDLE_IDENTIFIER = vtstudio.ios.graffitipaperball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -302,6 +399,7 @@
 				D929FD5A1E8F6BC2009302AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
